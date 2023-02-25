@@ -1,0 +1,67 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 2
+   Coding Challenge 1
+
+   Author: Sri Vani Chaitanya Varma Datla
+   Date: 02.04.2023 
+   
+   Filename: code2-1.css
+
+   Open the code2-1_txt.html and code2-1_txt.css files . Enter your name and the date in each document and save the files as code2-1.html and code2-1.css respectively.
+2
+Go to the code2-1.html file in your editor. Within the head section insert a link element linking the page to the code2-1.css file. Review the contents of the file and then save your changes.
+3
+Go to the code2-1.css file in your editor.
+4
+Create a style rule for the h1 element that sets the font-size property to 3.5em and sets the line-height property to 0em.
+5
+Create a style rule for h1 and h2 elements that applies the fonts Helvetica, Arial, sans-serif to the font-family property and sets the letter-spacing property to 0.1em.
+6
+Create a style rule for the blockquote element that sets the color property to the value hsl(30, 85%, 45%) and sets the font-size property to 1.5em.
+7
+Create a style for the first letter of the blockquote element that sets the font-size property to 1.5em.
+8
+Create a style for the footer element that:
+a)
+Centers the text by setting the text-align property to center,
+b)
+Sets the font-size property to 2em,
+c)
+Sets the color property to white, and
+d)
+Sets the background-color property to the color value hsl(30, 85%, 45%).
+9
+Save your changes to the file.
+10
+Test the code2-1.html file in your browser, verifying that the page resembles that shown in Figure 2–54 (aside from the line length which depends on the width of your browser window.)
+
+*/
+h1{
+   font-size: 3.5em;
+   line-height: 0em;
+}
+h1,h2{
+   font-family: Arial, Helvetica, sans-serif;
+   letter-spacing: 0.1em;
+}
+blockquote
+{
+   color:hsl(30, 85%, 45%);
+   font-size: 1.5em;
+}
+blockquote::first-letter
+{
+   font-size: 1.5em;
+}
+footer{
+   text-align: center;
+   font-size:2em;
+   color:white;
+   background-color: hsl(30, 85%, 45%);
+}
+
+
+
